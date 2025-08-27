@@ -1,0 +1,53 @@
+# ========================================
+# Node.js + Bun
+# ========================================
+node_modules/
+bun.lockb
+.pnp/
+.pnp.js
+
+# Bun build artifacts
+.bun/
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# Environment variables
+.env
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Optional: ignore test snapshots (if you don’t want them versioned)
+*.snap
+
+# Optional: ignore TypeScript build outputs
+*.tsbuildinfo
+recovery_file_1756265041341.dat
